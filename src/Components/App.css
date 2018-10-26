@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.todolist-wrap {
+  background: #8A8FFF;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todolist h4 {
+  font-size: 24px;
+  color: #8A8FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todolist {
+  width: 300px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 0 20px 30px 20px;
+  border-radius: 5px;
+}
+.todolist ul {
+  list-style: none;
+  padding-left: 0;
+}
+.todolist ul li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  background: #F3F3FF;
+  color: #8A8FFF;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+.todolist ul li input {
+  display: inline;
+  width: 150px;
+  height: 23px;
+      font-size: 18px;
+    font-weight: 500;
+    padding-left: 0;
+}
+.todolist input {
+  margin: 0 auto;
+  display: block;
+  height: 64px;
+  background: #F3F3FF;
+  border:#F3F3FF;
+  padding-left: 20px;
+  padding-right: 20px;
+      font-size: 18px;
+    font-weight: 500;
+}
+.todolist input:focus {
+  outline: none;
+}
+.todolist ul li span {
+  float: right;
+  cursor: pointer;
+}
+.todolist ul li span {
+  margin-left: 5px;
+}
+.todolist button.btn-addnew {
+  background: #f3f3ff;
+  color: #8A8FFF;
+  padding: 7px 10px;
+  font-size: 18px;
+  border: 1px solid #F3F3FF;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center
+}
