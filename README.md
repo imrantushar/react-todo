@@ -8,7 +8,4 @@ cd react-todo
 npm i
 npm run start
 open localhost:8080
-
-# To build the app for production, run the following command:
-npm run bundle
 </pre>
